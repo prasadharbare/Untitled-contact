@@ -17,7 +17,7 @@ function Page() {
           <Link to="/" className="text-blue-600 underline">
             here
           </Link>
-          .
+          
         </p>
       </div>
     </div>
