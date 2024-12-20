@@ -17,7 +17,7 @@ function Page() {
           <a
             className="text-blue-600 underline"
             target="_blank"
-            href={utils.entriesUrl}
+            href={utils.entriesurl}
           >
             here
           </a>
