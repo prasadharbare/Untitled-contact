@@ -11,13 +11,12 @@ function Page() {
 
       <div className="rounded-lg bg-red-400 p-3">
         <h2 className="text-3xl">Error 📛</h2>
-        <p className="text-lg">Your form is flagged for {"badWord"}.</p>
+        <p className="text-lg">Your form is flagged for {badWord}.</p>
         <p className="text-lg">
           Try resubmitting the form
           <Link to="/" className="text-blue-600 underline">
             here
           </Link>
-          
         </p>
       </div>
     </div>
