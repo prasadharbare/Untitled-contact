@@ -1,10 +1,7 @@
 import React from "react";
 
 function NotFound() {
-    return (
-        <div>
-            <h1>this is the not found route</h1>
-        </div>
-    );
+  return <div>The error is 404</div>;
 }
+
 export default NotFound;
