@@ -46,7 +46,7 @@ function Form() {
     formData.append(utils.services, data.services);
 
 
-    fetch(utils.submitUrl, {
+    fetch(utils.submiturl, {
       method: "POST",
       mode: "no-cors",
       body: formData,
